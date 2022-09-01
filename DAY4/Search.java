@@ -1,4 +1,4 @@
-package DAY4;
+package day4;
 
 
 // number1 - Binary Search 구현
