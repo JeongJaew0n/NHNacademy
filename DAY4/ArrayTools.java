@@ -189,11 +189,13 @@ public class ArrayTools {
         public static BitSet getPrimeAsBitSet(int range) {
             BitSet numbers = new BitSet();
             for(int n=0; n<range; n++) {
+                // bitSet의 index를 true로 만들어줌
                 numbers.set(n);
             }
             int i=0;
             while(i < range) {
                 if(i<2) {
+                    // bitSet의 index를 로 만들어줌
                     numbers.clear(i);
                     i++;
                     continue;
